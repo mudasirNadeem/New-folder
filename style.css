@@ -1,0 +1,39 @@
+:root{
+    --red : #FF0000;
+}
+
+.self-bg-red{
+    background-color: var(--red);
+}
+.self-text-red{
+    color: var(--red);
+}
+.self.bg.dark{
+    background-color: #000000 !important;
+}
+
+.bg-trans-Img{
+    background-image: url(/assets/bg-trans-img.svg);
+    background-position: center;
+}
+p{
+    margin-bottom: 0rem !important;
+}
+.bg-white-smoke{
+    background-color: #F8F8F8;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.row{
+    width: 100% !important;
+}

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Swiss721BT-BlackCondensed";
+    src: url("https://db.onlinewebfonts.com/t/184a43669964701942e4d9629cf77c2e.eot");
+    src: url("https://db.onlinewebfonts.com/t/184a43669964701942e4d9629cf77c2e.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/184a43669964701942e4d9629cf77c2e.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/184a43669964701942e4d9629cf77c2e.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/184a43669964701942e4d9629cf77c2e.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/184a43669964701942e4d9629cf77c2e.svg#Swiss721BT-BlackCondensed") format("svg");
+  }
+  @font-face {
+    font-family: 'SherikaRegular';
+    font-family: 'Sherika-ExtraBold';
+    
+    src: url(/fonts/sherika-extrabold.otf) format('truetype'); /* Replace 'path/to/your/font-file.ttf' with the actual path to your font file */
+    /* Add other font properties if needed, like font-weight and font-style */
+}
+  @font-face {
+    font-family: sherika;
+    src: url("fonts/sherika-extrabold.otf");
+  }
+  
+  @font-face {
+    font-family: Sora-Bold;
+    src: url("fonts/Sora-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: Sora-SemiBold;
+    src: url("fonts/Sora-SemiBold.ttf");
+  }
+  
+  @font-face {
+    font-family: CalafatiPro-Light;
+    src: url("fonts/Calafati Pro Light.otf");
+  }
+  
+  @font-face {
+    font-family: "Lucida Handwriting";
+    src: url("fonts/LucidaHandwritingStdRg.TTF");
+  }
+  
+  @font-face {
+    font-family: Sora-Regular;
+    src: url("fonts/Sora-Regular.ttf");
+  }
+
+.sherikaRegular{
+    font-family: SherikaRegular;
+}
+.sherikaExtraBold{
+    font-family: 'Sherika-ExtraBold';
+}
+.swiss721BT-BlackCondensed{
+    font-family:  Swiss721BT-BlackCondensed;
+}
+.sora-SemiBold {
+    font-family: Sora-SemiBold !important;
+  }
+  
+  .sora-Bold {
+    font-family: Sora-Bold !important;
+  }
+  
+  .calafatiPro-Light {
+    font-family: CalafatiPro-Light !important;
+  }
+  
+  .lucida-Handwriting {
+    font-family: "Lucida Handwriting" !important;
+  }
+  
+  .sora-Regular  {
+    font-family: Sora-Regular !important;
+  }
+  
